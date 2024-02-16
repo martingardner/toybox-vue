@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-    <span>
+    <div>
     <button :disabled="btn">Button {{btn}}</button>
     <button @click="triggerDisabled">Trigger</button>
-    </span>
+    </div>
 </template>
